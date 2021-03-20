@@ -10,5 +10,5 @@ sudo ./l4t_create_default_user.sh -u nvidia -p nvidia -a
 
 Then flashing takes place given the device is in the recovery mode
 ```
-sudo ./flash.sh xavier-nx-devkit mmcblk0p1
+sudo ./flash.sh -S 64GiB xavier-nx-devkit mmcblk0p1
 ```
