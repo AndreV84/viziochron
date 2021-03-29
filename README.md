@@ -1,5 +1,5 @@
 
-# Flashing NX device with hdmi display or emulator conencted, headless mode
+# Flashing of NX device with hdmi display or emulator conencted, headless mode
 1.  Linux_for_Tegra folder has to be created at Host_PC either with sdkmanager or with downloading rootfs from Downloads portal.
 
 
@@ -27,7 +27,7 @@ For Jetson Xavier NX Developer Kit:
 
 5)Continue the software installation.
 
-Then flashing takes place given the device is in the recovery mode
+Then flashing takes place given the device is in the recovery mode. Also the  mini usb-B of the Jetson NX needs to be connected to Host PC USB-A. 
 
 source https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/quick_start.html
 ```
@@ -40,6 +40,8 @@ AGX could be put into recovery mode via hardware method : pressing the middle fo
 ```
 sudo reboot --force forced-recovery
 ```
+the recovery USB cable needs to beconnected before reflashed. Only one of the two USB-C ports could be used for reflashing as depicted below
+<img src="https://developer.ridgerun.com/wiki/images/thumb/1/16/FrontDeveloperKit.png/600px-FrontDeveloperKit.png" alt="from ridgerun - flashing port">
 ```
 sudo ./flash.sh -S 24GiB jetson-xavier mmcblk0p1 
 ```
