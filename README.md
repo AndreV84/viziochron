@@ -1,5 +1,5 @@
 
-# Flashing of NX device with hdmi display or emulator conencted in headless mode
+# Flashing of NX device with hdmi display or emulator connected in headless mode
 First, Linux_for_Tegra folder has to be created at Host_PC either with sdkmanager or with downloading rootfs archive from Downloads portal.
 
 
