@@ -11,6 +11,8 @@ sudo ./l4t_create_default_user.sh -u nvidia -p nvidia -a
 Then flashing takes place given the device is in the recovery mode
 ```
 sudo ./flash.sh -S 56GiB xavier-nx-devkit mmcblk0p1
+```
+
 # Flashing AGX [32GB eMMC version ]
 
 sudo ./flash.sh -S 24GiB jetson-xavier mmcblk0p1 
