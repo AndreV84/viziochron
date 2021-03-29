@@ -40,6 +40,6 @@ AGX could be put into recovery mode via hardware method : pressing the middle fo
 ```
 sudo reboot --force forced-recovery
 ```
-
+```
 sudo ./flash.sh -S 24GiB jetson-xavier mmcblk0p1 
 ```
