@@ -1,13 +1,13 @@
 
 # Flashing of NX device with hdmi display or emulator conencted in headless mode
-1.  Linux_for_Tegra folder has to be created at Host_PC either with sdkmanager or with downloading rootfs archive from Downloads portal.
+First, Linux_for_Tegra folder has to be created at Host_PC either with sdkmanager or with downloading rootfs archive from Downloads portal.
 
 
-Then the file l4t_create_default_user.sh needs to be copied to the Linux_for_Tegra Folder to be run from there like:
+Second, the file l4t_create_default_user.sh needs to be copied to the Linux_for_Tegra Folder to be run from there:
 ```
 sudo ./l4t_create_default_user.sh -u nvidia -p nvidia -a
 ```
-Before the flashing the device could be put into the recovery using either a software trigger below or shortcutting pins 9-10 by the time the device gets powered ON with further release of the shortcut.
+Before flashing the device needs to be put into the recovery either via a software trigger listed below or  by shortcutting pins 9-10 by the time the device gets powered ON with further release of the shortcut.
 ```
 sudo reboot --force forced-recovery
 ```
