@@ -36,6 +36,7 @@ sudo ./flash.sh -S 56GiB xavier-nx-devkit mmcblk0p1
 
 # Flashing AGX [32GB eMMC version ]
 AGX could be put into recovery mode via hardware method : pressing the middle force recovery button while powering ON or resetting the device or the software trigger could be used
+
 <img src="http://linuxgizmos.com/files/nvidia_xavier_devkit5.jpg" alt="image from linuxgizmo middle recovery button" >
 ```
 sudo reboot --force forced-recovery
