@@ -1,4 +1,4 @@
-# viziochron
+
 # Flashing NX device with hdmi display or emulator conencted, headless mode
 1. It is required to either form the Linux_for_Tegra folder created at Host_PC with sdkmanager or with downloading rootfs from Downloads portal.
 
