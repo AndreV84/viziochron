@@ -1,6 +1,6 @@
 
 # Flashing of NX device with hdmi display or emulator conencted in headless mode
-1.  Linux_for_Tegra folder has to be created at Host_PC either with sdkmanager or with downloading rootfs from Downloads portal.
+1.  Linux_for_Tegra folder has to be created at Host_PC either with sdkmanager or with downloading rootfs archive from Downloads portal.
 
 
 Then the file l4t_create_default_user.sh needs to be copied to the Linux_for_Tegra Folder to be run from there like:
