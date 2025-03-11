@@ -38,11 +38,14 @@ sudo ./flash.sh -S 56GiB xavier-nx-devkit mmcblk0p1
 AGX could be put into recovery mode via hardware method : pressing the middle force recovery button while powering ON or resetting the device or the software trigger could be used
 
 <img src="http://linuxgizmos.com/files/nvidia_xavier_devkit5.jpg" alt="image from linuxgizmo middle recovery button" >
+
 ```
 sudo reboot --force forced-recovery
 ```
+
 the recovery USB cable needs to beconnected before reflashed. Only one of the two USB-C ports could be used for reflashing as depicted below
 <img src="https://developer.ridgerun.com/wiki/images/thumb/1/16/FrontDeveloperKit.png/600px-FrontDeveloperKit.png" alt="from ridgerun - flashing port">
+
 ```
 sudo ./flash.sh -S 24GiB jetson-xavier mmcblk0p1 
 ```
